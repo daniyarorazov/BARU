@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+.card_block {
+    width: auto;
+}
+
+.card__img {
+    width: auto;
+    height: 236px;
+    border-radius: 22px;
+    margin: 0;
+    object-fit: cover;
+}
+
+.card__title {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    color: #333333;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.card__date {
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;    
+    font-weight: 400;
+    color: #747474;
+}
