@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+import ListEventsPage from "./pages/ListEventsPage";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <main>
+      <ListEventsPage />
+    </main>
   );
 }
 
