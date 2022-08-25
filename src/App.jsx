@@ -1,12 +1,13 @@
-import './App.scss';
-import Navbar from './components/Navbar/Navbar';
+import "./App.scss";
+import Navbar from "./components/Navbar/Navbar";
 import SliderComponent from "./components/Slider/SliderComponent";
-import ListEventsPage from './pages/ListEventsPage';
-import Footer from './components/Footer/Footer';
+import ListEventsPage from "./pages/ListEventsPage";
+import Footer from "./components/Footer/Footer";
+import TestPage from "./pages/TestPage";
 function App() {
   return (
     <>
-      <ListEventsPage/>
+      <ListEventsPage />
     </>
   );
 }
