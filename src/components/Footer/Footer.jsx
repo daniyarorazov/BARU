@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './styles/Footer.module.sass';
-import homeIcon from '../images/icons/home-icon.svg';
-import contactIcon from '../images/icons/chat-icon.svg';
-import aboutIcon from '../images/icons/note-icon.svg';
+import homeIcon from '../../images/icons/home-icon.svg';
+import contactIcon from '../../images/icons/chat-icon.svg';
+import aboutIcon from '../../images/icons/note-icon.svg';
 
 function Footer() {
     return (
