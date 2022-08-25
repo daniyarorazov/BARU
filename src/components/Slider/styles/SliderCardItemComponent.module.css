@@ -12,44 +12,40 @@ a {
   height: 236px;
   border-radius: 22px;
   margin: 0;
-  object-fit: cover;
-  background-size: cover;
-  position: relative;
-}
-.card__img img {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  transition: all 0.6s ease;
-}
-.card__img img:hover {
-  transform: scale(1.2);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .card__title {
   display: block;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
   color: #333333;
   font-size: 16px;
   margin-bottom: 0;
   margin-top: 10px;
+  -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }
+
 .card__title:hover {
-  color: #F4D35E;
+  color: #E2BA29;
 }
 
 .card__date {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: #747474;
 }
 
 .card__block div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 6px;
 }
 
@@ -57,6 +53,8 @@ a {
   display: block;
   max-width: 24px;
   height: 24px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-right: 2px;
 }
+/*# sourceMappingURL=SliderCardItemComponent.module.css.map */

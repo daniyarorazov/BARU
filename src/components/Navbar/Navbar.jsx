@@ -4,14 +4,18 @@ import profileIcon from "../../images/icons/profile-icon.svg";
 import styles from "./styles/Navbar.module.sass";
 import NavbarSearch from "./NavbarSearch";
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <nav className={styles.navbar}>
-      <a href="#" className={styles["navbar-header__link"]}>
-        <div className={styles["navbar-header__logo"]}></div>
-        <p className={styles["navbar-header__title"]}>BARU</p>
-      </a>
-      <NavbarSearch />
+      <div className={styles['navbar-wrapper']}>
+        <a href="#" className={styles["navbar-header__link"]}>
+          <div className={styles["navbar-header__logo"]}></div>
+          <p className={styles["navbar-header__title"]}>BARU</p>
+        </a>
+      </div>
+      <div className={styles['navbar-search-wrapper']}>
+        <NavbarSearch searchName = {props.searchName} />
+      </div>
       <a href="#" className={styles["navbar-poster"]}>
         <img
           src={calendarIcon}
